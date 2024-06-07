@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML</title>
+</head>
+<body>
+
+    <h1>Imagens dinâmicas</h1>
+    <p>Aqui vamos inserir imagens pra serem alteradas de acordo com o tamanho da tela, pra melhor visualização delas, evitando a barra de rolagem.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagens flexível">
+    </picture>
+
+    <h1>Mídia de audios</h1>
+    <p>Aqui vamos aprender a incluir e reproduzir audios para o site.</p>
+
+    <h4>Esse é o primeiro audio.</h4>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/Higher Octane-Vans in Japan.mp3" type="audio/mpeg">
+        <source src="midia/Higher Octane-Vans in Japan.ogg" type="audio/ogg">
+        <source src="midia/Higher Octane-Vans in Japan.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não é compatível com as mídias incluídas, se você quiser, pode fazer o download <a href="midia/Higher Octane-Vans in Japan.mp3"> dessa mídia clicando aqui.</a></p>
+    </audio>
+
+    <h4>Esse é o segundo audio.</h4>
+
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+
+        <p>Infelizmente seu navegador não é compatível com as mídias incluídas, se você quiser, pode fazer o download <a href="midia/guanacast-33.mp3"> dessa mídia clicando aqui.</a></p>
+    </audio>
+    
+</body>
+</html>

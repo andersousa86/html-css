@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(187, 184, 184);
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.356);
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.356);
+            border-radius: 10px 0px;
+        }
+
+        section{
+            margin: 20px 10px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.356);
+        }
+
+        article{
+            background-color: rgb(230, 224, 224);
+            padding: 5px;
+            
+        }
+
+        article > aside{
+            background-color: lightgray;
+            margin: 5px;
+        }
+
+        nav{
+            background-color: rgb(83, 82, 82);
+            padding: 3px;
+            box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.356);
+        }
+
+        nav > a{
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: aqua;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <article>
+                <h2>Vários assuntos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur optio omnis quibusdam exercitationem eum obcaecati molestiae doloremque nobis ipsum, ullam labore! Molestias dignissimos similique, soluta fuga animi totam eum est!</p>
+            </article>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, impedit commodi distinctio iure vitae atque nesciunt, ea perspiciatis beatae similique ipsa. Ex neque porro nostrum molestiae libero. Consectetur, architecto soluta.</p>
+                <aside>
+                    <p>Artigo escrito por Guanabara</p>
+                </aside>
+            </article>
+        </section>
+            <section>
+                <article>
+                    <h2>Noticias sobre o Mundo</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis eaque accusantium consequatur blanditiis porro architecto id voluptatibus, vel iure magnam. Voluptatibus dicta amet saepe? Vel impedit aut quis tempore officia!</p>
+                    <aside>
+                        <p>Escrito por José</p>
+                    </aside>
+                </article>
+            </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por Curso em Vídeo</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body{
+            /*
+            Medidas absolutar pra fontes
+            cm, mm, in, px, pt, pc
+
+            Medidas relativas pra fontes
+            em, ex, rem, vw, vh, %
+
+            Usar mais as medidas px e em.
+            1em equivale a 16px de fonte size.
+            */
+
+            /*Estilos de fontes*/
+            font-weight: bolder;
+            font-style: italic;
+            /*text-decoration: underline;*/
+
+            font-size: 1em;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h1{
+            /*SHORTHAND FONT
+            usado para simplificar a formatação das fontes, ao invés de fazer o de baixo:
+            
+            font-family: 'work Sans', sans-serif
+            font-weight: bolder
+            font-size 3em
+            font-style: italic;
+            faz esse aqui:
+            */
+            font: italic bolder 3em 'work Sans', sans-serfir;
+        }
+        
+        h2{
+            font: bold 2em 'work Sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalho com fontes</h1>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat expedita laborum quidem nulla laboriosam voluptas cumque omnis iure repudiandae nihil molestiae a sed adipisci ab, labore dignissimos necessitatibus cupiditate. Harum. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique totam voluptatibus quia provident veniam? Dolores illo sequi earum ratione officiis dolore soluta ipsum, neque distinctio odio, voluptates necessitatibus similique quasi.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur doloribus velit in deserunt fuga repellat nulla! Quidem vitae sed similique sunt voluptatem. A, eligendi provident odio cupiditate quisquam et consectetur.</p>
+
+    <h2>Subtítulo do trabalho</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Corporis nobis porro harum praesentium et quidem incidunt recusandae ipsam obcaecati, minus, fugiat aut inventore nesciunt sapiente dolorem accusantium accusamus dolores ea!</p>
+</body>
+</html>
