@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe{
+            width: 90vh;
+            height: 400px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non minima exercitationem asperiores dolor. Veniam provident cupiditate ut modi sapiente deserunt maiores, beatae accusamus cumque autem. Laboriosam officiis aspernatur provident!</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident reprehenderit tempora autem placeat molestiae temporibus perferendis. Quisquam cupiditate dolore delectus tenetur assumenda, ab, at facilis saepe laboriosam obcaecati fugiat reiciendis.</p>
+
+    <iframe id="tela" name="frame" srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident reprehenderit tempora autem placeat molestiae temporibus perferendis. Quisquam cupiditate dolore delectus tenetur assumenda, ab, at facilis saepe laboriosam obcaecati fugiat reiciendis.</p><p><img src='imagens/naruto.jpeg' width='200px'></p>">
+        <p>Inferlizmente sua página não é compatível com isso!</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, nobis! Explicabo ducimus aut quisquam at enim accusantium a sed blanditiis, ratione nostrum natus possimus iste quaerat eos! Inventore, sapiente minus!</p>
+</body>
+</html>
