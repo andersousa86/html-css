@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÕES DA TELA NA VERTICAL, EM PÉ (PORTRAIT) */
+
+body {
+    background-image: url(../Imagens/cev-portrait.jpg);
+    background-position: center bottom;
+}

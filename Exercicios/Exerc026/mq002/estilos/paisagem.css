@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+/* CONFIGURAÇÕES DA TELA NA HORIZONTAL, PAISAGEM (LANDSCAPE) */
+
+body {
+    background-image: url(../Imagens/cev-landscape.jpg);
+    background-position: left bottom;
+}
