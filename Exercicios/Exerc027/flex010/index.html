@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexible Box</title>
+</head>
+<style>
+    div.conteiner{
+        background-color: grey;
+        display: flex;
+        padding: 3px;
+        flex-flow: row nowrap;
+    }
+
+    div.conteiner2{
+        background-color: lightcoral;
+        display: flex;
+        padding: 3px;
+        flex-flow: row nowrap;
+    }
+
+    div.conteiner3{
+        background-color: lightgreen;
+        display: flex;
+        padding: 3px;
+        flex-flow: row nowrap;
+    }
+
+    div.item{
+        background-color: aqua;
+        border: 1px solid black;
+        text-align: center;
+        flex-basis: 200px;
+    }
+
+    div#c1{
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
+
+    div#c2{
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
+
+    div#c3{
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
+
+    div#c4{
+        flex-grow: 0;
+        flex-shrink: 1;
+    }
+
+    div#c5{
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    div#c6{
+        flex-grow:2;
+        flex-shrink: 1;
+    }
+
+    div#c7{
+        flex-grow: 0;
+        flex-shrink: 0;
+    }
+    div#c8{
+        flex-grow: 1;
+        flex-shrink: 1;
+    }
+
+    div#c9{
+        flex-grow: 0;
+        flex-shrink: 4;
+    }
+</style>
+<body>
+    <div class="conteiner">
+        <div class="item" id="c1">A</div>
+        <div class="item" id="c2">B</div>
+        <div class="item" id="c3">C</div>
+    </div>
+    <div class="conteiner2">
+        <div class="item" id="c4">D</div>
+        <div class="item" id="c5">E</div>
+        <div class="item" id="c6">F</div>
+    </div>
+    <div class="conteiner3">
+        <div class="item" id="c7">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto facilis doloribus ea itaque molestiae perspiciatis, reprehenderit deleniti aspernatur, vitae earum quo magnam similique animi illum maiores ad, reiciendis praesentium sint.</div>
+        <div class="item" id="c8">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla, eveniet, voluptas ipsam ducimus dolore impedit labore laborum obcaecati odio aliquam itaque autem officia pariatur at omnis maxime vel suscipit unde.</div>
+        <div class="item" id="c9">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eius totam cum labore dolor architecto hic, laudantium aperiam unde quasi quisquam a eos doloribus molestiae mollitia ratione repudiandae libero nulla ad?</div>
+    </div>
+</body>
+</html>
